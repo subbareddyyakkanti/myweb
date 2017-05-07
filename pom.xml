@@ -31,7 +31,17 @@
 		  <scope>test</scope>
 		</dependency> -->
 	</dependencies>
-	
+	<properties>
+		<project.scm.id>gitserver</project.scm.id>
+	</properties>
+	 <!-- To create the tag in git repo provide the repo details-->
+	<scm>
+		<url>https://github.com/subbareddyyakkanti/myweb</url>
+		<connection>scm:git:https://github.com/subbareddyyakkanti/myweb.git</connection>
+		<developerConnection>scm:git:https://github.com/subbareddyyakkanti/myweb.git</developerConnection>
+	  
+        <tag>HEAD</tag>
+     </scm>
 	<distributionManagement>
         <repository>
             <id>deployment</id>
